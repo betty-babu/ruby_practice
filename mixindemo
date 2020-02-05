@@ -1,0 +1,30 @@
+puts "MIXIN DEMO"
+module A_M
+  
+  def module_method
+    puts " This is a module method"
+  end
+end
+
+class A 
+include A_M
+  def class_a_method
+    puts "This is A class method"
+  end
+end
+
+a = A.new
+a.module_method
+a.class_a_method
+
+class B 
+extend A_M
+  def class_b_method
+    puts "This is class B method"
+  end
+end
+
+b =  B.new
+B.module_method
+b.class_b_method
+
