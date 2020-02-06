@@ -1,6 +1,7 @@
 # Ruby program to demonstrate that private 
 # method can also be inherited 
-
+puts
+puts
 class Geeks 
 
 	# public method 
