@@ -1,4 +1,5 @@
-class Array_Manipulation
+class Array_Manipulation  
+
 attr_accessor :a
 
   def initialize(a)
