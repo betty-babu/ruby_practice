@@ -1,0 +1,33 @@
+puts "MIXIN DEMO with self"
+module A_M
+  
+  def self.module_method
+    puts " This is a module method"
+  end
+end
+#checking whether module can be instantiated
+# s = A_M.new
+#A_M.module_method
+
+class A 
+include A_M
+  def class_a_method
+    puts "This is A class method"
+  end
+end
+
+a = A.new
+A_M.module_method
+a.class_a_method
+
+class B 
+extend A_M
+  def class_b_method
+    puts "This is class B method"
+  end
+end
+
+b =  B.new
+A_M.module_method
+b.class_b_method
+
