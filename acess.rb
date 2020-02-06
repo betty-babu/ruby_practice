@@ -6,7 +6,7 @@ class Geeks
 	# public method 
 	def method_1 
 	
-		p "Public Method of class Geeks"
+	p "Public Method of class Geeks"
 	
 	end
 
@@ -15,7 +15,7 @@ class Geeks
 
 	def method_2 
 		
-		p "Protected Method of class Geeks"
+	p "Protected Method of class Geeks"
 	end
 
 	# defining the private method 
@@ -23,7 +23,7 @@ class Geeks
 
 	def method_3 
 		
-		p "Private Method of class Geeks"
+	p "Private Method of class Geeks"
 		
 	end
 end
