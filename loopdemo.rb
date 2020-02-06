@@ -1,4 +1,5 @@
 class IterationDemo
+
 attr_accessor  :a
 
   def initialize
